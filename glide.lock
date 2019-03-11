@@ -1,5 +1,5 @@
 hash: 4981763ece47c6ddba616a90ebea841ec7a7025c16f28371ee92aa72fdfe28a5
-updated: 2019-03-04T01:44:38.452649067-08:00
+updated: 2019-03-10T22:51:34.077947661-07:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -31,8 +31,6 @@ imports:
   version: 7aba545c679b0f45679eeb406dc662d2c8a04c26
 - name: github.com/appscode/jsonpatch
   version: 7c0e3b262f30165a8ec3d0b4c6059fd92703bfb2
-- name: github.com/appscode/mergo
-  version: 9f23e2d6bd2a77f959b2bf6acdbefd708a83a4a4
 - name: github.com/appscode/osm
   version: 90ec9897e91b750de9fbb939f93f9b6920957dd2
   subpackages:
@@ -214,7 +212,7 @@ imports:
 - name: github.com/fatih/structs
   version: 878a968ab22548362a09bdb3322f98b00f470d46
 - name: github.com/fsnotify/fsnotify
-  version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
+  version: 11844c0959f6fff69ba325d097fce35bd85a8e93
 - name: github.com/ghodss/yaml
   version: 0ca9ea5df5451ffdf184b4428c902747c2c11cd7
 - name: github.com/go-ini/ini
@@ -255,7 +253,7 @@ imports:
 - name: github.com/google/btree
   version: 7d79101e329e5a3adf994758c578dab82b90c017
 - name: github.com/google/go-cmp
-  version: 3af367b6b30c263d47e8895973edcca9a49cf029
+  version: c81281657ad99ba22e14fda7c4dfaaf2974c454e
   subpackages:
   - cmp
   - cmp/internal/diff
@@ -313,7 +311,7 @@ imports:
 - name: github.com/json-iterator/go
   version: 1624edc4454b8682399def8740d46db5e4362ba4
 - name: github.com/kubedb/apimachinery
-  version: 492c6d520a33091da6ececa5846fd11cabf8fc6f
+  version: 96b21b844e4236d284eb2a18ea7e5701bd992233
   subpackages:
   - apis
   - apis/authorization
@@ -352,7 +350,7 @@ imports:
   - pkg/eventer
   - pkg/validator
 - name: github.com/kubedb/elasticsearch
-  version: 50374386935fdcf6111dc31ac8f7f1bbba2a4100
+  version: 9f255e91419d76e81adb8e3843c0491eaf5a072a
   subpackages:
   - pkg/admission
   - pkg/controller
@@ -361,34 +359,34 @@ imports:
   - third_party/golang/crypto/pkcs12
   - third_party/golang/crypto/pkcs12/internal/rc2
 - name: github.com/kubedb/etcd
-  version: 703ce48e56a015d8a324276feab2c885697ccb52
+  version: 18a7c85a73fcdb0051c05fbaefbdd8f8d47727fb
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/util
 - name: github.com/kubedb/memcached
-  version: 8b8de648a0a9460212cc8eaf1d9e398ce840d366
+  version: bdcafd971d108f56b4188a7e8cdb70a7a5346dad
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mongodb
-  version: 163911b0b17348c5dfa2408b136ae9c2a4c87c5f
+  version: 8b97442feaa75f16063d0ba67087d96879994def
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mysql
-  version: 978f1139514aff881231bd9bc428c904ad9e60e0
+  version: ee078af95e4395ad0f87f17abe0857bc99364626
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/postgres
-  version: 0264a3c31525889f23c3ac1374f70d18cc0bf2ac
+  version: a7d068e1019bed2991e673ce90c73c2bebb3f41a
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/leader_election
 - name: github.com/kubedb/redis
-  version: 598eb51c5d6f306804b41e4fe732f42295bc3c9e
+  version: dd99f15b79635c75ed26bef15bd057819342324d
   subpackages:
   - pkg/admission
   - pkg/configure-cluster
@@ -531,7 +529,7 @@ imports:
   - googleapi/internal/uritemplates
   - storage/v1
 - name: google.golang.org/appengine
-  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  version: 12d5545dc1cfa6047a286d5e853841b6471f4c19
   subpackages:
   - internal
   - internal/app_identity
@@ -953,7 +951,7 @@ imports:
   - util/retry
   - util/workqueue
 - name: k8s.io/klog
-  version: 8139d8cb77af419532b33dfa7dd09fbc5f1d344f
+  version: b9b56d5dfc9208f60ea747056670942d8b0afdc8
 - name: k8s.io/kube-aggregator
   version: 71ff10f5febb8733ad25fc112736ff5f8cd97beb
   subpackages:
@@ -975,7 +973,7 @@ imports:
 - name: k8s.io/utils
   version: 66066c83e385e385ccc3c964b44fd7dcd413d0ed
 - name: kmodules.xyz/client-go
-  version: 8e7590427751a4d2512094be0144780dc7ec860a
+  version: 4e95b64335e75800ba52ff9e44188066da251420
   subpackages:
   - admissionregistration/v1beta1
   - apiextensions/v1beta1
