@@ -1,5 +1,5 @@
-hash: ee791bc30281c750064d85a63df7733bd50307c16f7eabb0c1f78ad66cbe4bfc
-updated: 2019-03-18T15:48:49.754039814-07:00
+hash: b7abac5fcc6cc17d6db29b4cd9cbd5d65e9c766c7b3ca4d4438f92cc14775ec0
+updated: 2019-03-23T09:20:21.303364865-07:00
 imports:
 - name: bitbucket.org/ww/goautoneg
   version: 75cd24fc2f2c2a2088577d12123ddee5f54e0675
@@ -224,7 +224,7 @@ imports:
 - name: github.com/go-openapi/jsonreference
   version: 8483a886a90412cd6858df4ea3483dce9c8e35a3
 - name: github.com/go-openapi/spec
-  version: 5bae59e25b21498baea7f9d46e9c147ec106a42e
+  version: 5b6cdde3200976e3ecceb2868706ee39b6aff3e4
 - name: github.com/go-openapi/swag
   version: 5899d5c5e619fda5fa86e14795a835f473ca284c
 - name: github.com/gogo/protobuf
@@ -263,7 +263,7 @@ imports:
 - name: github.com/google/gofuzz
   version: 44d81051d367757e1c7c6a5a86423ece9afcf63c
 - name: github.com/google/uuid
-  version: 8c31c18f31ede9fc8eae72290a7e7a8064e9b3e3
+  version: d460ce9f8df2e77fb1ba55ca87fafed96c607494
 - name: github.com/googleapis/gnostic
   version: 0c5108395e2debce0d731cf0287ddf7242066aba
   subpackages:
@@ -312,7 +312,7 @@ imports:
 - name: github.com/json-iterator/go
   version: 1624edc4454b8682399def8740d46db5e4362ba4
 - name: github.com/kubedb/apimachinery
-  version: fb8b2533cc4f81f8c39214d943b3951206be0a2b
+  version: b5efa57aa32081ced51ecebc3e00379985d23a34
   subpackages:
   - apis
   - apis/authorization
@@ -351,7 +351,7 @@ imports:
   - pkg/eventer
   - pkg/validator
 - name: github.com/kubedb/elasticsearch
-  version: 94857418f936c660402c04dab7900cce49c5eee5
+  version: 034a3ad95b833401316ad3f05213626c9915c725
   subpackages:
   - pkg/admission
   - pkg/controller
@@ -360,34 +360,34 @@ imports:
   - third_party/golang/crypto/pkcs12
   - third_party/golang/crypto/pkcs12/internal/rc2
 - name: github.com/kubedb/etcd
-  version: 78803c0fae89338449e61960bdd15311a5b35981
+  version: 16306366d1cad15f8075b739680535c810eb7374
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/util
 - name: github.com/kubedb/memcached
-  version: 6098c5e63cd3b906341cceaa26e92872e4fbcecf
+  version: 8f16670e474cca67e6f8ca914fd5292c555b9a2f
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mongodb
-  version: 38000f549d5f2a8fcb59103bf0f9a51be3174aeb
+  version: 5eda87a255aa9aef4cddcd62dac4c31c755ad441
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/mysql
-  version: 838d9459881febfe3e5007738db85372cb397d93
+  version: b79c80d6ced95c646dd3a109a95bce794b190fa1
   subpackages:
   - pkg/admission
   - pkg/controller
 - name: github.com/kubedb/postgres
-  version: f7ba306786ae351a4a0a1864e8385abe8f21fa43
+  version: 1a7bb9976ff3e51b4a47c1be788907582cbdecee
   subpackages:
   - pkg/admission
   - pkg/controller
   - pkg/leader_election
 - name: github.com/kubedb/redis
-  version: 6deb30df86a0bf2ed0ee8f65e0be7e4e4b19812e
+  version: 21d6b8e7cb2cb66fcd447057663a8b5170db0bd8
   subpackages:
   - pkg/admission
   - pkg/configure-cluster
@@ -411,7 +411,7 @@ imports:
 - name: github.com/modern-go/reflect2
   version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
 - name: github.com/ncw/swift
-  version: a12c20e04ddb87207d41409a7afda9848aba8df2
+  version: 24e3012fc8a71f004a6455bce2088031d50bf2b6
 - name: github.com/NYTimes/gziphandler
   version: 56545f4a5d46df9a6648819d1664c3a03a13ffdb
 - name: github.com/olivere/elastic
@@ -1021,12 +1021,12 @@ imports:
   - agents/prometheusbuiltin
   - api/v1
 - name: kmodules.xyz/objectstore-api
-  version: 433d1fad089cb639415b182f6067cc5ffd43a2b3
+  version: 1819d12be808d6e39341205515e8ec91c55d4898
   subpackages:
   - api/v1
   - osm
 - name: kmodules.xyz/offshoot-api
-  version: 317e1ed3d6c458ec431ae651b7d61deb831f40ed
+  version: 3386b694ec505dca686fd81f82c3be89e9ca5fda
   subpackages:
   - api/v1
 - name: kmodules.xyz/webhook-runtime
